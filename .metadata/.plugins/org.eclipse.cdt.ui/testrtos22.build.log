@@ -1,0 +1,9 @@
+11:54:41 **** Incremental Build of configuration Nios II for project testrtos22 ****
+make all 
+Info: Building ../testrtos22_bsp/
+C:/altera/15.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../testrtos22_bsp/
+[BSP build complete]
+[testrtos22 build complete]
+
+11:54:42 Build Finished (took 743ms)
+

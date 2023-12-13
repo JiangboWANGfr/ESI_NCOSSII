@@ -3,6 +3,7 @@
   "files.associations": {
     "alt_types.h": "c",
     "count_binary.h": "c",
-    "system.h": "c"
+    "system.h": "c",
+    "altera_avalon_pio_regs.h": "c"
   }
 }

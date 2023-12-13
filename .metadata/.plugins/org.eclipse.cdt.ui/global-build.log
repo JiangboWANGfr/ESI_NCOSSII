@@ -1,0 +1,27 @@
+11:54:33 **** Incremental Build of configuration Nios II for project testrtos22 ****
+make all 
+Info: Building ../testrtos22_bsp/
+C:/altera/15.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../testrtos22_bsp/
+[BSP build complete]
+Info: Compiling hello_ucosii.c to obj/default/hello_ucosii.o
+nios2-elf-gcc -xc -MP -MMD -c -I../testrtos22_bsp//UCOSII/inc -I../testrtos22_bsp//HAL/inc -I../testrtos22_bsp/ -I../testrtos22_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/hello_ucosii.o hello_ucosii.c
+Info: Linking testrtos22.elf
+nios2-elf-g++  -T'../testrtos22_bsp//linker.x' -msys-crt0='../testrtos22_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../testrtos22_bsp/   -Wl,-Map=testrtos22.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx  -o testrtos22.elf obj/default/hello_ucosii.o -lm -msys-lib=m
+nios2-elf-insert testrtos22.elf --thread_model ucosii --cpu_name nios2_proc --qsys true --simulation_enabled false --id 8217 --sidp 0x81050 --timestamp 1702461159 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name DE0_RTOS --quartus_project_dir "C:/JIANGBOWANG/DE10_NANO/DE10_NANO" --jdi ../..//output_files/chip_RTOS.jdi --sopcinfo C:/JIANGBOWANG/DE10_NANO/DE10_NANO/software/testrtos22_bsp/../../DE0_RTOS.sopcinfo
+Info: (testrtos22.elf) 131 KBytes program size (code + initialized data).
+Info:                  57 KBytes free for stack + heap.
+Info: Creating testrtos22.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source testrtos22.elf >testrtos22.objdump
+[testrtos22 build complete]
+11:54:40 **** Build of configuration Nios II for project testrtos22 ****
+make all 
+Info: Building ../testrtos22_bsp/
+C:/altera/15.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../testrtos22_bsp/
+[BSP build complete]
+[testrtos22 build complete]
+11:54:41 **** Incremental Build of configuration Nios II for project testrtos22 ****
+make all 
+Info: Building ../testrtos22_bsp/
+C:/altera/15.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../testrtos22_bsp/
+[BSP build complete]
+[testrtos22 build complete]
